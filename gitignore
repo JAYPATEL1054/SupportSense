@@ -1,0 +1,10 @@
+kaggle.json
+*.ipynb_checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+department_model/
+urgency_model/
+ticket_data/
+*.zip
+.DS_Store
