@@ -2,7 +2,7 @@
 
 SupportSense takes a raw customer support ticket and predicts **which department** should handle it (Billing, Technical, Account, General) and **how urgent** it is (High, Medium, Low), using a fine-tuned DistilBERT model. It's built to route tickets automatically instead of relying on manual triage.
 
-**[Live demo](#) — replace with your Hugging Face Spaces / Gradio link** · **[Training notebook](notebook/SupportSense_Training.ipynb)**
+**[Training notebook](notebook/SupportSense_Training.ipynb)** · Demo runs locally via `demo/app.py` (see [Running it yourself](#running-it-yourself)) — see the screenshots below for it in action.
 
 ![Demo screenshot](Screenshots/01a_demo_correct_prediction.png)
 
@@ -30,7 +30,7 @@ Full details, screenshots, and numbers below.
 | `"My laptop screen keeps flickering and won't stay on."` | Department: **Technical** (1.00) · Urgency: **High** (0.90) |
 | `"I was charged twice for the same order this month."` | Department: **Billing** (1.00) · Urgency: **High** (0.96) |
 
-Try it in the [live demo](#), or run the notebook end to end.
+Run `demo/app.py` locally to try it yourself, or step through the notebook end to end.
 
 ---
 
